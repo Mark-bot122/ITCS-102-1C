@@ -7,4 +7,4 @@ p = input("PASSWORD --> ")
 if (u == username) and (p == password):
 	print("Access granted")
 else:
-	print("Acces Denied"
+	print("Acces Denied")

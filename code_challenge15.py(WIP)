@@ -1,0 +1,29 @@
+import os
+os.system("cls")
+print("DLL student information")
+cont = True
+
+while cont == True:
+    print('Please select from the following options')
+    print('A - adding student information')
+    print('B - Search student')
+    print('C - Edit student information')
+    print('D - Delete student information')
+    print('E - Print all student information')
+    print('F - Export Data')
+    print('G - Exit System')
+    
+    choice = input("Input your choice: ").lower().upper()
+
+    if choice == 'a':
+        print("ADD STUDENT RECORD")
+
+        student_id = input("Input student ID number: ")
+        first_name = input("Ennter first name: ")
+        last_name = input("Enter Last name: ")
+        course = input("Enter selected course: ")
+        section = input("Enter your section: ")
+        email = input("Enter your email: ")
+        #transferring inputs to a dictionary
+
+        stud_record[]
